@@ -1,0 +1,32 @@
+body{
+    background-color:rgb(0, 0, 0);
+    color: white;
+}
+
+.name-highlight{
+    color: #ffff00;
+}
+
+h1{ 
+    
+    font-family: 'Tourney', cursive;
+    font-size: 50px;
+}
+
+h3{
+    
+    font-family: 'Baumans', cursive;
+}
+p{  
+    font-family: 'Baumans', cursive;
+    
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+.half-width img{
+    width: 100%;
+}
