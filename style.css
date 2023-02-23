@@ -1,6 +1,7 @@
 body{
     background-color:rgb(0, 0, 0);
     color: white;
+    margin: 0px;
 }
 
 .name-highlight{
@@ -13,6 +14,13 @@ h1{
     font-size: 50px;
 }
 
+h2{
+    
+    font-family: 'Baumans', cursive;
+    font-size: 30px;
+}
+
+
 h3{
     
     font-family: 'Baumans', cursive;
@@ -24,9 +32,39 @@ p{
 .half-width{
     width: 40%;
     float: left;
+    margin-top: 2%;
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 .half-width img{
-    width: 100%;
+    width:100%;
+} 
+
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+    background-size: 50% auto;
+}
+
+section{
+    height: 500px;
+}
+.link-button{
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Baumans', cursive;
+    color: black;
+    background-color: #ffff00;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.link-button:hover{
+    font-weight: bold;
+    color: white;
+    background-color: #ff8800;
+}
+.mid-sec{
+    margin-top: 50px;
 }
